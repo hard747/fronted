@@ -1,0 +1,109 @@
+body{
+
+    background-color: greenyellow; 
+    font-size: 2em;
+    /* text-align: center; */
+    margin: 1em;
+}
+h4{
+    font-size: 50px;
+}
+
+/*p::first-letter{
+    color: blue;
+    font-size: 2.3em; 
+    float: left;
+    line-height: 1;
+    margin-right: .1;
+    font-family: serif;
+}*/
+.entrada{
+
+    background-color: indigo;
+    /* color: black; */
+}
+.center{
+    text-align: center;
+}
+.bold{
+     font-weight: bold; 
+}
+.center , 
+.bold{
+    color: chartreuse;
+}
+.list1{
+    font-size: 3em;
+}
+.list2{
+    font-size: 5em;
+}
+ .list1 .item{ 
+     color:yellow;
+} 
+.list2.list1{
+    color:red;
+}
+li>ul{
+    display: none;
+}
+
+li:hover ul{
+
+    display: block;
+}
+:root{
+    --color-title:green;
+    --color-subtitle:purple;
+}
+
+.title1{
+    color: var(--color-title);
+}
+.title2{
+    color: var(--color-subtitle);
+}
+.subtitulo{
+    font-size: .5em;
+    margin-top: -2em;
+}
+
+.title1 + .subtitulo{
+    color: var(--color-title);
+}
+
+.title2 + .subtitulo{
+    color: var(--color-subtitle);
+}
+
+.list1 ~ .hermano{
+    background: red;
+}
+
+.enable{
+    display: none;
+}
+
+
+.check:checked + .enable{
+
+    display: block;
+}
+
+.check:checked ~ .disable{
+
+    display: none;
+}
+[type="email"]{
+    border: 1px solid blue;
+}
+[type="submit"]{
+    background: red;
+    color: white;
+    border: none;
+}
+[required]{
+    border: 2px solid red;
+    margin: .5em;
+}
+
