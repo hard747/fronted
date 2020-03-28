@@ -1,9 +1,19 @@
 body{
 
-    background-color: greenyellow; 
-    font-size: 2em;
-    /* text-align: center; */
-    margin: 1em;
+    /* background-color: greenyellow;  */
+    font-size: 2em; 
+    margin: 1em; 
+    min-height: 100vh;
+    /*background-image: radial-gradient( hsl(0,100%,50%),hsl(30,100%,50%),hsl(60,100%,50%),
+    hsl(90,100%,50%),hsl(120,100%,50%),hsl(150,100%,50%),hsl(180,100%,50%));*/
+
+    background-image: url(https://www.caracteristicas.co/wp-content/uploads/2018/09/Tigre-e1537475681159.jpg) ; 
+    background-repeat: no-repeat;
+    background-position: center ;
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: right top;
+    /* background-clip: content-box; */
 }
 h4{
     font-size: 50px;
@@ -82,7 +92,9 @@ li:hover ul{
 
 .enable{
     display: none;
+    font-family: Arial, Helvetica, sans-serif;
 }
+
 
 
 .check:checked + .enable{
@@ -109,5 +121,10 @@ li:hover ul{
 
 .centrado{
 
-    margin-left: 12em;
+    margin-left: 11.5em; 
+    /* margin: 80px; */
+    /* width: 500px; */
+    /* height: 900px; */
+    padding: 0px;
+    border: 30px solid blue;
 }
