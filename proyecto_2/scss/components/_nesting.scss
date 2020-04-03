@@ -1,0 +1,12 @@
+.menu{
+    margin: 2em;
+    background-color: chartreuse;
+    grid-template: {
+        columns: 20px 20px;
+        rows: auto; 
+    } 
+
+    .link{
+        text-decoration: none;
+    }
+}

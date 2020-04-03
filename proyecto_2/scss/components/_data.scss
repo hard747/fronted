@@ -1,0 +1,23 @@
+$number:10;
+$number1:10px;
+$number2:20s;
+$string:'EDteam';
+$string2:none;
+$color:red;
+$perico:hsl(200,100,50);
+$color3:#aaff99;
+$list:1px solid read;
+$list2:primary,secundary,terciary;
+$boolean:true;
+$map: (
+    primary:red,
+    secundary: green,
+    terciary:blue
+    /*@debug type-of($list2);*/
+);
+
+body{
+    
+    color: $color;
+    background-color: $perico;
+}

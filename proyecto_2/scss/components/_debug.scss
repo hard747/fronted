@@ -1,0 +1,6 @@
+$list2:12px;
+$list3:10;
+body{
+    @debug $list2;
+    @debug type-of($list3);
+}
