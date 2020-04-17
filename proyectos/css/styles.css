@@ -43,16 +43,16 @@ h4{
     color: chartreuse;
 }
 .list1{
-    font-size: 3em;
+    font-size: 1em;
 }
 .list2{
-    font-size: 5em;
+    font-size: 1em;
 }
  .list1 .item{ 
      color:yellow;
 } 
 .list2.list1{
-    color:red;
+    color: blue;
 }
 li>ul{
     display: none;
@@ -126,5 +126,15 @@ li:hover ul{
     /* width: 500px; */
     /* height: 900px; */
     padding: 0px;
-    border: 30px solid blue;
+    border: 15px solid blue;
+    border-radius: 50%;
+}
+.centrados{
+
+    margin-left: 2.2em; 
+    /* margin: 80px; */
+    /* width: 500px; */
+    /* height: 900px; */
+    padding: 0px;
+    border: 30px solid orange;
 }
